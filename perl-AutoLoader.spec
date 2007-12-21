@@ -9,6 +9,7 @@ Summary:    Load subroutines only on demand
 Url:		    http://search.cpan.org/dist/%{module}
 Source:         http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/%{module}-%{version}.tar.gz
 BuildArch:      noarch
+BuildRoot:	    %{_tmppath}/%{name}-%{version}
 
 %description
 The AutoLoader module works with the AutoSplit module and the __END__ token to
