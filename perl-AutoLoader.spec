@@ -29,6 +29,8 @@ make test
 %install
 rm -rf %{buildroot}
 %makeinstall_std
+mv %{buildroot}%{_mandir}/man3/AutoLoader.3pm \
+   %{buildroot}%{_mandir}/man3/AutoLoader-%{version}.3pm
 
 %clean
 rm -rf %{buildroot}
