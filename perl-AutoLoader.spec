@@ -2,7 +2,7 @@
 
 Name:		perl-%{module}
 Version:    5.63
-Release:    %mkrel 1
+Release:    %mkrel 2
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    Load subroutines only on demand
