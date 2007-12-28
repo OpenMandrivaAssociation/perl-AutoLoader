@@ -1,8 +1,8 @@
 %define module   AutoLoader
 
 Name:		perl-%{module}
-Version:    5.63
-Release:    %mkrel 2
+Version:    5.64
+Release:    %mkrel 1
 License:	GPL or Artistic
 Group:		Development/Perl
 Summary:    Load subroutines only on demand
@@ -40,4 +40,5 @@ rm -rf %{buildroot}
 %doc Changes README
 %{_mandir}/man3/*
 %{perl_vendorlib}/AutoLoader.pm
+%{perl_vendorlib}/AutoSplit.pm
 
