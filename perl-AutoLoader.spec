@@ -1,8 +1,8 @@
 %define module AutoLoader
 
 Name:		perl-%{module}
-Version:	5.66
-Release:	%mkrel 2
+Version:	5.67
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		Development/Perl
 Summary:	Load subroutines only on demand
