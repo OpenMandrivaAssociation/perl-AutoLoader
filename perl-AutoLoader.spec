@@ -1,7 +1,7 @@
 %define module AutoLoader
 
 Name:		perl-%{module}
-Version:	5.67
+Version:	5.68
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Development/Perl
