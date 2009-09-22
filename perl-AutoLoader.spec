@@ -1,9 +1,9 @@
 %define upstream_name    AutoLoader
-%define upstream_version 5.69
+%define upstream_version 5.70
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 2
+Release:	%mkrel 1
 
 Summary:	Load subroutines only on demand
 License:	GPLv2+
