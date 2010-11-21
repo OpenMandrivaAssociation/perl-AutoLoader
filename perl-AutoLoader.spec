@@ -1,5 +1,5 @@
 %define upstream_name    AutoLoader
-%define upstream_version 5.70
+%define upstream_version 5.71
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
