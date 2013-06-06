@@ -1,15 +1,14 @@
 %define upstream_name    AutoLoader
-%define upstream_version 5.71
-
+%define upstream_version 5.73
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%perl_convert_version 5.73
+Release:	1
 
 Summary:	Load subroutines only on demand
 License:	GPLv2+
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/AutoLoader-5.73.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -109,3 +108,4 @@ mv %{buildroot}%{_mandir}/man3/AutoLoader.3pm \
 
 * Sat Nov 17 2007 Guillaume Rousse <guillomovitch@mandriva.org> 5.63-1mdv2008.1
 - first mdv release 
+
