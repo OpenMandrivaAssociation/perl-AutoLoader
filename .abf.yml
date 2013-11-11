@@ -1,4 +1,5 @@
 removed_sources:
   AutoLoader-5.71.tar.gz: 19fc2edbea2c9c2a85518616341ea3a81b7663aa
-sources:
   AutoLoader-5.73.tar.gz: 10cd8c6221de5f34a4141de83acf014f6abb293f
+sources:
+  AutoLoader-5.74.tar.gz: cb94acf223588a225c80ad6725f79fa91b6232ba
