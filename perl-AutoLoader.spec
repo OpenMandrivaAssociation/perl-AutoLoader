@@ -2,7 +2,7 @@
 %define upstream_version 5.74
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	1
+Release:	2
 
 Summary:	Load subroutines only on demand
 License:	GPLv2+
