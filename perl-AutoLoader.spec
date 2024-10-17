@@ -7,7 +7,7 @@ Release:	3
 Summary:	Load subroutines only on demand
 License:	GPLv2+
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://search.cpan.org/CPAN/authors/id/S/SM/SMUELLER/AutoLoader-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
